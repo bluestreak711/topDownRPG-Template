@@ -1,0 +1,24 @@
+body {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   margin: 0;
+   position: relative;
+}
+
+.canvas-container {
+   position: relative;
+}
+
+canvas {
+   border: 5px solid black;
+}
+
+#fpsDisplay {
+   background-color: rgba(255, 255, 255, 0.5);
+   font-size: 3em; /* Adjust the value to set the desired font size */
+   top: 10px;
+   left: 10px;
+   position: absolute;
+}
